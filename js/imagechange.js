@@ -1,6 +1,6 @@
 var myImage = document.getElementById("mainImage");
-	var imageArray = [ "images/dbaproject.png",
-			"images/dbaproject1.png","images/dbaproject2.png" ];
+	var imageArray = [ "images/dbaproject1.png",
+			"images/dbaproject2.png","images/dbaproject3.png" ];
 	var imageIndex = 0;
 
 	function changeImage() {
