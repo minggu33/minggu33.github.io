@@ -26,4 +26,17 @@ var myImage1 = document.getElementById("mainImage1");
 	}
 	setInterval(changeImage1, 3000);
 
+var myImage2 = document.getElementById("mainImage2");
+	var imageArray2 = [ "images/projectjps1.png",
+			"images/projectjps2.png","images/projectjps3.png" ];
+	var imageIndex2 = 0;
+
+	function changeImage2() {
+		myImage2.setAttribute("src", imageArray2[imageIndex2]);
+		imageIndex2++;
+		if (imageIndex2 >= imageArray2.length) {
+			imageIndex2 = 0;
+		}
+	}
+	setInterval(changeImage2, 3000);
 
